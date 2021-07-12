@@ -1,0 +1,248 @@
+/*************************************Tag Selectors*****************************/
+body{
+margin: 0;
+/*font-family: Georgia, serif;*/
+	/*font-family: Geneva,Tahoma,Verdana,sans-serif; */
+font-family: 'Acme', sans-serif;
+   text-align: center;
+
+}
+
+/*div{
+   background-color: #E4F9F5;
+}*/
+
+h1{
+  color: #ff6363;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 562.5%; /* in font-size 100% = 16px =1em !!!*/
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #c70039;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color: #d7385e;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8;
+}
+hr {
+  /*border-color: #512b58;*/
+  border-style: none;
+  border-top: dotted 5px #512b58; width: 5%; margin: auto; margin-top: 1%; margin-bottom: 1%;
+}
+a{
+  color: #ac005d;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding-left: 18px;
+}
+a:hover{
+      color: #ececec;
+}
+/*************************************CLASS Selectors (Class have to start with  dot (.) - can use multy times)*****************************/
+.h2{
+  color: #e58a8a;
+  font-family: 'Montserrat', sans-serif;
+}
+.bio{
+  margin: auto;
+  width: 32%;
+}
+.top-container{
+   background-color: #E4F9F5;
+   padding-top: 100px;
+   position: relative;
+
+}
+.MyartIMG{
+  bottom: 340px;
+  padding-right: 0px;
+  position: absolute;
+  width: 42%;
+}
+.MyartLIMG{
+  bottom: 250px;
+  position: absolute;
+  width: 42%;
+  right: 1100px;
+}
+
+.Tcloud{
+      bottom:   510px;
+      position: absolute;
+      width: 16%;
+}
+
+.Bcloud{
+  position: absolute;
+  right: 815px;
+  top: 394px;
+  width: 16%;
+}
+.mount{
+padding-top: 10px;
+}
+
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #2a7886;
+  text-decoration-style: solid;
+}
+
+.middle-container{
+
+}
+
+.profilepic{
+border: 2px solid #c70039;
+border-radius: 150px 150px / 90px;
+margin-top: 6px;
+width: 10%;
+}
+
+.bottom-container{
+     background-color: #66BFBF;
+     margin: 0;
+     padding: 50px 0 20px;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 85px auto 85px auto;
+  text-align: left;
+  line-height: 1.8;
+}
+.skill-rowC{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.code-img{
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+}
+.design-img{
+  width: 25%;
+  float: left;
+  margin-right:  0px;
+}
+.PCT-img{
+  width: 20%;
+  float: right;
+  margin-right:  465px;
+}
+.coocking-img {
+  width: 28%;
+  float: right;
+  margin-right: 535px;
+}
+.sportIMG{
+  padding-top: 10px;
+}
+.CopyRight{
+    color: #ececec;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.myButton {
+	background-color:#11999e;
+	border-radius:36px;
+	border:2px solid #00702d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:23px;
+	font-weight:bold;
+	padding:18px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#4affa8;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}*/
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: #ecfbfc;
+}
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #4affa8;
+  outline: none;
+}
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 1;
+}
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.EndMsg{
+  margin: 40px auto 60px;
+    width: 40;
+}
+.imgpopup{
+  border: 1px solid #aad;
+  border-radius: 8px;
+  padding: 5px;
+  width: 180px;
+}
+.IMGHover{
+    box-shadow: 0 0 2px 1px rgba(0, 10, 186, 0.5);
+}
+/************************CLASS Selectors (Class have to start with   (#) - can use id only in one time and only one id for one element  unlike class )********************/
+#sub{
+  font-size: 22px;
+}

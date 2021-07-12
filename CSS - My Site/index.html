@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Shlomi Azama Designs 👨🏾‍🎨 </title>
+      <link rel="icon" href="faviconn.ico">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@600&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="Tcloud" src="images\cloud.png" alt="cloud-img">
+    <h1>I'm Shlomi.</h1>
+    <p class = "h2" id="sub"> a web <span class="underline"> Designer</span> & <span class="underline">Prog</span>rammer.</p>
+      <img class="Bcloud" src="images\cloud.png" alt="cloud-img">
+      <img class="mount" src="images\mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profilepic" src="images\profile.jpg" alt="Shlomi Prifile picture">
+        <h2>Hello.</h2>
+        <p class="bio">Welcome to my site.<br>
+            This is a sample site that I have built and designed for the general impression of my skils,
+            hope you will enjoy.</p>
+      </div>
+      <hr>
+
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+              <img class="code-img" src="images\Coding-Html.png" alt="coding skills">
+              <h3><span>Pro</span>grammer</h3>
+              <p>Software engineer, knowledgeable in a variety of programming languages ​​and always strives to learn more.<br>
+               In high school, I began to study programming. <br>
+              After military service, I studied software engineering at Tel Hai College.</p>
+              </div>
+
+              <div class="skill-row">
+                <img class="coocking-img" src="images\coock.png" alt="coocking skills" ><br>
+                <h3>Coocking</h3>
+                <p> A high-level cook.</p>
+        </div>
+
+            <div class="skill-row">
+            <img class="design-img" src="images\paint.png" alt="design skills"> <br>
+            <h3>Graphic Designer</h3>
+            <p>Link for some of my Graphic Designe here down below.</p>
+            <a class="footer-link" target="_blank" href="My-Designe.html">My Designe</a>
+          <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+          </div>
+
+  <br>
+    <div class="skill-row">
+          <img class="PCT-img" src="images\technician.png" alt="coocking skills"> <br>
+          <h3>Computer Technician</h3>
+          <p> A high-level Computer Technician.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <hr>
+
+      <div class="Hobbies">
+        <h2>My Hobbies.</h2>
+        <div class="Hobbies-row">
+          <img class="" src="images\gamer.png" alt="Gaming" width="10%">
+          <h2><span>Gaming & Streaming</span></h2>
+          <p>I'm a hight-level gamer and was a streamer on youtube for some time.</p>
+          <p>I really like to play video games on me pc, shooting is my favorite genre.</p>
+            <a class="footer-link" target="_blank" href="https://www.youtube.com/c/drn00b">My Youtube Channel</a>
+            <br>
+          <img class="sportIMG" src="images\sport.png" alt="Sport" width="10%" >
+          <h2>Sport</h2>
+          <p>I'm really like play football and go to Gym.</p>
+      </div>
+      <hr>
+
+      <div class="EndMsg">
+        <h2>Get In Touch</h2>
+        <a   class="myButton" action="mailto:shlomiazama.jobs@gmail.com" onclick="openForm()">Contact Me!</a>
+        <h3>This is the end of the site.</h3>
+        <p> Have you enjoyed? Did you like the site? <br> You are welcome to contact me if you are interested in one of my skills.<br>
+          💕 A wonderful day for everyone. 💕</p>
+      </div> <br>
+
+    <div class="bottom-container">
+      <a color = "#11999E" class="footer-link" target="_blank" href="https://www.linkedin.com/in/shlomi-azama-a24747152/">LinkedIn</a>
+      <a class="footer-link" target="_blank" href="https://twitter.com/AzamaShlomi">Twitter</a>
+      <p class="CopyRight"> ©2020 Shlomi Azama.</p>
+    </div>
+    </div>
+    <div class="form-popup" id="myForm">
+  <form action="mailto:shlomiazama.jobs@gmail.com" class="form-container">
+    <h1>Contact Me!</h1>
+    <br>
+    <label for="psw"><b>Name</b></label>
+    <input type="text" placeholder="Enter Your Name" name="psw" required>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+     <textarea name="yourMessage" rows="10" cols="35"></textarea> <br>
+
+
+    <button type="submit" class="btn">Send Message</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+  </body>
+</html>
